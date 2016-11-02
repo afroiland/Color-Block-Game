@@ -1,0 +1,48 @@
+#blockArea{
+  display: inline-flex;
+}
+
+.colorBlock{
+  height: 100px;
+  width: 100px;
+}
+
+#block1{
+  background-color: mediumaquamarine;
+}
+
+#block2{
+  background-color: cyan;
+}
+
+#block3{
+  background-color: darkturquoise;
+}
+
+#block4{
+  background-color: deepskyblue;
+}
+
+#block5{
+  background-color: aqua;
+}
+
+#block6{
+  background-color: lightskyblue;
+}
+
+#block7{
+  background-color: mediumspringgreen;
+}
+
+#block8{
+  background-color: aquamarine;
+}
+
+#block9{
+  background-color: mediumturquoise;
+}
+
+#block10{
+  background-color: cadetblue;
+}
