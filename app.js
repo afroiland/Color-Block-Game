@@ -39,8 +39,7 @@ $(document).ready(function() {
     $('.colorBlock').on('click', function(event) {
       $(this).addClass('animated wobble');
       if($(this).data("colorId") != ranNum){
-        alert("Really? That's what you think "+colorThisTime+" looks like? Maybe"+
-        " get an adult to help you and try again.");
+        setTimeout(wrongAlert, 800);
        }else{
          $('#blockArea').empty();
          reload();
@@ -48,8 +47,10 @@ $(document).ready(function() {
       }
     });
 
-    //var test = $("#block1").data("colorId");
-    //console.log($("#block5").data("colorId"));
+    function wrongAlert(){
+      alert("Really? That's what you think "+colorThisTime+" looks like? Maybe"+
+      " get an adult to help you and try again.");
+    }
 
   };
   reload();
