@@ -37,13 +37,14 @@ $(document).ready(function() {
     }
 
     $('.colorBlock').on('click', function(event) {
+      $(this).addClass('animated wobble');
       if($(this).data("colorId") != ranNum){
         alert("Really? That's what you think "+colorThisTime+" looks like? Maybe"+
         " get an adult to help you and try again.");
        }else{
          $('#blockArea').empty();
          reload();
-         alert("Well done. Try again.")
+         alert("Well done. You may play again if you like.")
       }
     });
 
